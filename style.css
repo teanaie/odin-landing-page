@@ -10,11 +10,46 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 300px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 36px;
+    gap: 24px;
+}
+
+.about {
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    gap: 8px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-subtext {
+    padding: 8px 0;
+}
+.about-signup {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
 }
