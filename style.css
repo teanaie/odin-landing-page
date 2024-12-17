@@ -10,10 +10,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
-.logo {
+#logo {
     font-weight: bold;
     font-size: 18px;
 }
@@ -24,10 +24,10 @@ ul {
     gap: 24px;
 }
 
-.about {
+#about {
     background-color: #1f2937;
     color: white;
-    padding: 100px 300px;
+    padding: 100px 200px;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
@@ -37,19 +37,61 @@ ul {
     gap: 8px;
 }
 
-.title {
-    font-size: 36px;
-    font-weight: bold;
+#about .info {
+    min-width: 0;
 }
 
-.about-subtext {
+.title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#about .subtext {
     padding: 8px 0;
 }
-.about-signup {
+
+#about .signup {
     background-color: #3882F6;
     color: white;
     border: none;
     border-radius: 8px;
     padding: 6px 24px;
     font-weight: bold;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0;
+}
+
+#gallery .info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 150px;
+    margin: 0 24px;
+}
+
+.img > p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#review {
+    background-color: #e5e7eb;
 }
