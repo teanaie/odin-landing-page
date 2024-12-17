@@ -38,7 +38,9 @@ ul {
 }
 
 #about .info {
+    flex-wrap: wrap;
     min-width: 0;
+    overflow: hidden;
 }
 
 .title {
@@ -87,7 +89,7 @@ ul {
     margin: 0 24px;
 }
 
-.img > p {
+.img p {
     font-size: 14px;
     text-align: center;
 }
@@ -100,10 +102,42 @@ ul {
 
 .quote {
     font-style: italic;
-    font-size: 36px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    min-width: 0;
 }
 
 .name {
     font-weight: bold;
     text-align: right;
+}
+
+#modal {
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 300px;
+    padding: 36px 64px;
+    border-radius: 8px;
+}
+
+#modal .text {
+    display: flex;
+    flex-direction: column;
+}
+
+#modal p {
+    margin: 0;
+    padding: 0;
+}
+
+#modal .signup {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
 }
