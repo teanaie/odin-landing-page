@@ -94,4 +94,16 @@ ul {
 
 #review {
     background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 80px 300px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.name {
+    font-weight: bold;
+    text-align: right;
 }
